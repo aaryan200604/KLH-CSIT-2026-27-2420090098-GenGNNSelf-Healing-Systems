@@ -1,9 +1,0 @@
-torch
-torch-geometric
-networkx
-fastapi
-uvicorn
-pydantic
-docker
-scikit-learn
-matplotlib
