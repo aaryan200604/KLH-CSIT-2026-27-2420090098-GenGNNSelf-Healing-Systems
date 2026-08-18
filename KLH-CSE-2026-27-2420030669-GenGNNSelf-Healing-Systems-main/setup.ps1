@@ -1,0 +1,17 @@
+New-Item -ItemType Directory -Force -Path src\monitor_analyze
+New-Item -ItemType Directory -Force -Path src\plan_execute
+New-Item -ItemType Directory -Force -Path src\models
+New-Item -ItemType Directory -Force -Path src\fault_injection
+New-Item -ItemType Directory -Force -Path src\dashboard
+New-Item -ItemType Directory -Force -Path data\raw
+New-Item -ItemType Directory -Force -Path data\processed
+New-Item -ItemType Directory -Force -Path docs\architecture_diagrams
+New-Item -ItemType Directory -Force -Path reports
+New-Item -ItemType Directory -Force -Path results\figures
+New-Item -ItemType File -Force -Path src\__init__.py
+New-Item -ItemType File -Force -Path src\monitor_analyze\__init__.py
+New-Item -ItemType File -Force -Path src\plan_execute\__init__.py
+New-Item -ItemType File -Force -Path src\models\__init__.py
+New-Item -ItemType File -Force -Path src\fault_injection\__init__.py
+New-Item -ItemType File -Force -Path src\dashboard\__init__.py
+New-Item -ItemType File -Force -Path data\README.md
